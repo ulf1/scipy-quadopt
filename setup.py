@@ -18,7 +18,10 @@ def get_version(path):
 
 setup(name='scipy-quadopt',
       version=get_version("scipy_quadopt/__init__.py"),
-      description='Wrapper and utility functions to apply scipy\'s SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.',
+      description=(
+          "Wrapper and utility functions to apply scipy's SLSQP algorithm "
+          "to quadratic optimization problems with resource constraints and "
+          "upper boundaries."),
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
       url='http://github.com/satzbeleg/scipy-quadopt',
@@ -27,6 +30,8 @@ setup(name='scipy-quadopt',
       license='Apache License 2.0',
       packages=['scipy_quadopt'],
       install_requires=[
-          'setuptools>=40.0.0'],
+          'setuptools>=40.0.0',
+          'numpy>=1.19.5',
+          'scipy>=1.5.0,<2'],
       python_requires='>=3.6',
       zip_safe=True)
