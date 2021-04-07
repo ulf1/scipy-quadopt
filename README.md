@@ -83,3 +83,7 @@ Please [open an issue](https://github.com/satzbeleg/scipy-quadopt/issues/new) fo
 
 ### Contributing
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/satzbeleg/scipy-quadopt/compare/).
+
+
+### Acknowledgements
+This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - [433249742](https://gepris.dfg.de/gepris/projekt/433249742). Project duration: 2020-2023.
