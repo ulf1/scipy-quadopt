@@ -1,5 +1,4 @@
 [![PyPI version](https://badge.fury.io/py/scipy-quadopt.svg)](https://badge.fury.io/py/scipy-quadopt)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4284804.svg)](https://doi.org/10.5281/zenodo.4284804)
 
 # scipy-quadopt
 Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.
@@ -33,7 +32,7 @@ lam = 0.4
 beta_1 = 0.25
 beta_2 = 0.75
 
-# 
+# compute weights
 simi = sqp.aggregate_matrices(simi_1, beta_1, simi_2, beta_2)
 weights, _ = sqp.get_weights(good, simi, lam)
 ```

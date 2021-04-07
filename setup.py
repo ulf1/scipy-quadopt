@@ -22,8 +22,8 @@ setup(name='scipy-quadopt',
           "Wrapper and utility functions to apply scipy's SLSQP algorithm "
           "to quadratic optimization problems with resource constraints and "
           "upper boundaries."),
-      long_description=read('README.md'),
-      long_description_content_type='text/markdown',
+      # long_description=read('README.md'),
+      # long_description_content_type='text/markdown',
       url='http://github.com/satzbeleg/scipy-quadopt',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
