@@ -4,6 +4,40 @@
 # scipy-quadopt
 Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.
 
+## Usage
+
+```py
+import numpy as np
+import scipy_quadopt as sqp
+
+# goodness scores
+good = np.array([.51, .53, .55, .57])
+
+# similarity matrices
+simi_1 = np.array([
+    [1, .9, .8, .7],
+    [.9, 1, .6, .5],
+    [.8, .6, 1, .4],
+    [.7, .5, .4, 1],
+])
+
+simi_2 = np.array([
+    [1, .7, .8, .3],
+    [.7, 1, .4, .2],
+    [.8, .4, 1, .6],
+    [.3, .2, .6, 1],
+])
+
+# preference parameters
+lam = 0.4
+beta_1 = 0.25
+beta_2 = 0.75
+
+# 
+simi = sqp.aggregate_matrices(simi_1, beta_1, simi_2, beta_2)
+weights, _ = sqp.get_weights(good, simi, lam)
+```
+
 ## Appendix
 
 ### Installation
@@ -22,7 +56,6 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt --no-cache-dir
 pip install -r requirements-dev.txt --no-cache-dir
-pip install -r requirements-demo.txt --no-cache-dir
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
