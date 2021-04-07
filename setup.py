@@ -16,18 +16,17 @@ def get_version(path):
     raise RuntimeError("Unable to find version string.")
 
 
-setup(name='template_pypi',
-      version=get_version("template_pypi/__init__.py"),
-      description='lorem ipsum',
+setup(name='scipy-quadopt',
+      version=get_version("scipy_quadopt/__init__.py"),
+      description='Wrapper and utility functions to apply scipy\'s SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
-      url='http://github.com/myorg/template_pypi',
-      author='John Doe',
+      url='http://github.com/satzbeleg/scipy-quadopt',
+      author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='Apache License 2.0',
-      packages=['template_pypi'],
+      packages=['scipy_quadopt'],
       install_requires=[
           'setuptools>=40.0.0'],
-      # scripts=['scripts/examplescript.py'],
       python_requires='>=3.6',
       zip_safe=True)

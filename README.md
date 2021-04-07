@@ -1,45 +1,17 @@
-[![PyPI version](https://badge.fury.io/py/template_pypi.svg)](https://badge.fury.io/py/template_pypi)
+[![PyPI version](https://badge.fury.io/py/scipy-quadopt.svg)](https://badge.fury.io/py/scipy-quadopt)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4284804.svg)](https://doi.org/10.5281/zenodo.4284804)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/myorg/template_pypi/master?urlpath=lab)
-[![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/kmedian/template_pypi)
 
-# template_pypi
-
-## DELETE THIS LATER 
-Download template_pypi and rename it
-
-```
-git clone git@github.com:kmedian/template_pypi.git mycoolpkg
-cd mycoolpkg
-bash rename.sh "myorg" "mycoolpkg" "Real Name"
-```
-
-The git repo is reinitialized without an remote url. 
-Therefore
-
-```
-git remote add origin git@github.com:myorg/mycoolpkg.git
-```
-
-
-## Usage
-
-Table of Contents
-
-* [Use Case 1](#use-case-1)
-
-
-### Use Case 1
-
+# scipy-quadopt
+Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.
 
 ## Appendix
 
 ### Installation
-The `template_pypi` [git repo](http://github.com/myorg/template_pypi) is available as [PyPi package](https://pypi.org/project/template_pypi)
+The `scipy-quadopt` [git repo](http://github.com/satzbeleg/scipy-quadopt) is available as [PyPi package](https://pypi.org/project/scipy-quadopt)
 
 ```
-pip install template_pypi
-pip install git+ssh://git@github.com/myorg/template_pypi.git
+pip install scipy-quadopt
+pip install git+ssh://git@github.com/satzbeleg/scipy-quadopt.git
 ```
 
 ### Install a virtual environment
@@ -73,8 +45,8 @@ rm -r .venv
 
 
 ### Support
-Please [open an issue](https://github.com/myorg/template_pypi/issues/new) for support.
+Please [open an issue](https://github.com/satzbeleg/scipy-quadopt/issues/new) for support.
 
 
 ### Contributing
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/myorg/template_pypi/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/satzbeleg/scipy-quadopt/compare/).
