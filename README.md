@@ -1,4 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/scipy-quadopt.svg)](https://badge.fury.io/py/scipy-quadopt)
+[![PyPi downloads](https://img.shields.io/pypi/dm/scipy-quadopt)](https://img.shields.io/pypi/dm/scipy-quadopt)
 [![DOI](https://zenodo.org/badge/355471428.svg)](https://zenodo.org/badge/latestdoi/355471428)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/satzbeleg/scipy-quadopt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/scipy-quadopt/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/satzbeleg/scipy-quadopt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/scipy-quadopt/context:python)
