@@ -1,9 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/scipy-quadopt.svg)](https://badge.fury.io/py/scipy-quadopt)
 [![PyPi downloads](https://img.shields.io/pypi/dm/scipy-quadopt)](https://img.shields.io/pypi/dm/scipy-quadopt)
 [![DOI](https://zenodo.org/badge/355471428.svg)](https://zenodo.org/badge/latestdoi/355471428)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/satzbeleg/scipy-quadopt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/scipy-quadopt/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/satzbeleg/scipy-quadopt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/satzbeleg/scipy-quadopt/context:python)
-[![scipy-quadopt](https://snyk.io/advisor/python/scipy-quadopt/badge.svg)](https://snyk.io/advisor/python/scipy-quadopt)
 
 # scipy-quadopt
 Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.
@@ -45,11 +42,11 @@ weights, _ = sqp.get_weights(good, simi, lam)
 ## Appendix
 
 ### Installation
-The `scipy-quadopt` [git repo](http://github.com/satzbeleg/scipy-quadopt) is available as [PyPi package](https://pypi.org/project/scipy-quadopt)
+The `scipy-quadopt` [git repo](http://github.com/ulf1/scipy-quadopt) is available as [PyPi package](https://pypi.org/project/scipy-quadopt)
 
 ```
 pip install scipy-quadopt
-pip install git+ssh://git@github.com/satzbeleg/scipy-quadopt.git
+pip install git+ssh://git@github.com/ulf1/scipy-quadopt.git
 ```
 
 ### Install a virtual environment
@@ -73,7 +70,6 @@ pip install -r requirements-dev.txt --no-cache-dir
 Publish
 
 ```sh
-pandoc README.md --from markdown --to rst -s -o README.rst
 python setup.py sdist 
 twine upload -r pypi dist/*
 ```
@@ -89,12 +85,16 @@ rm -r .venv
 
 
 ### Support
-Please [open an issue](https://github.com/satzbeleg/scipy-quadopt/issues/new) for support.
+Please [open an issue](https://github.com/ulf1/scipy-quadopt/issues/new) for support.
 
 
 ### Contributing
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/satzbeleg/scipy-quadopt/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/ulf1/scipy-quadopt/compare/).
 
 
 ### Acknowledgements
-This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - [433249742](https://gepris.dfg.de/gepris/projekt/433249742). Project duration: 2020-2023.
+The "Evidence" project was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - [433249742](https://gepris.dfg.de/gepris/projekt/433249742) (GU 798/27-1; GE 1119/11-1).
+
+### Maintenance
+- till 31.Aug.2023 (v0.1.2) the code repository was maintained within the DFG project [433249742](https://gepris.dfg.de/gepris/projekt/433249742)
+- since 01.Sep.2023 (v0.2.0) the code repository is maintained by Ulf Hamster.
