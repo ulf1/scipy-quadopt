@@ -3,12 +3,14 @@
     "name": "Ulf Hamster",
     "orcid": "0000-0002-0440-4868"
   }],
-  "title": "scipy-quadopt",
+  "title": "scipy-quadopt: Quadratic optimization with constraints and upper boundaries",
   "description": "Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.",
   "license": "Apache-2.0",
   "upload_type": "software",
   "keywords": [
     "quadratic programming",
+    "constrained optimization",
+    "optimization problem",
     "SLSQP",
     "scipy"
   ]

@@ -2,7 +2,7 @@
 [![PyPi downloads](https://img.shields.io/pypi/dm/scipy-quadopt)](https://img.shields.io/pypi/dm/scipy-quadopt)
 [![DOI](https://zenodo.org/badge/355471428.svg)](https://zenodo.org/badge/latestdoi/355471428)
 
-# scipy-quadopt
+# scipy-quadopt: Quadratic optimization with constraints and upper boundaries
 Wrapper and utility functions to apply scipy's SLSQP algorithm to quadratic optimization problems with resource constraints and upper boundaries.
 
 ## Usage
